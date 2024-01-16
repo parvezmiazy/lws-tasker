@@ -10,7 +10,7 @@ export default function TaskBoard() {
     description: "I want to learn react from learn with sumit website",
     tags: ["web", "React", "js"],
     priority: "High",
-    isFavorite: true,
+    isFavorite: false,
   };
 
   const [tasks, setTasks] = useState([defaultTask]);
